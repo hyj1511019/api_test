@@ -22,7 +22,7 @@ receiver = 'hyj1511019@163.com'
 subject = '接口测试报告'
 body = 'hi,all,\n附件中是接口测试报告，请查收'
 
-is_send_report = True
+is_send_report = False
 
 # log配置
 import  logging

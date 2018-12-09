@@ -8,7 +8,7 @@ all = unittest.defaultTestLoader.discover("./testcase")
 
 
 if __name__ == "__main__":
-    # unittest.TextTestRunner(verbosity=2).run(all)  # 两个不能同时使用
+    # unittest.TextTestRunner(verbosity=2).run(all)  # 两v个不能同时使用
     with open(config.report_file, "wb") as f:  # 二进制写模式
         HTMLTestRunner(stream=f, title="User接口测试报告", description="测试报告").run(all)
 
